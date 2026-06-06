@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anuka Restaurant à Abidjan propose des plats africains et français, livraison dans tout Abidjan, options sans sel et sans cube sur demande.">
+  <title>Anuka Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="logo-text">Anuka Restaurant</span>
+        <p class="tagline">Cuisine africaine et française, saveurs authentiques</p>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Accueil</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Galerie</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1 class="hero-title"><span>Anuka</span> Restaurant</h1>
+        <p>Un restaurant chaleureux à Abidjan, proposant des plats africains et français préparés avec soin et des ingrédients frais. Livraison disponible dans tout Abidjan, avec options sans sel et sans cube sur demande.</p>
+        <div class="hero-actions">
+          <a class="button" href="contact.html">Réserver une table</a>
+          <a class="button-secondary" href="contact.html">Demande spéciale</a>
+          <a class="button-secondary" href="https://wa.me/2280748917001" target="_blank">Commander maintenant</a>
+        </div>
+      </div>
+      <p class="hero-highlight">Plat en vedette</p>
+      <div class="hero-image" aria-label="Diaporama des plats Anuka">
+        <img src="images/hero.jpg" alt="Plat du restaurant Anuka" class="active" />
+        <img src="images/dish-mafe.jpg" alt="Mafé maison" />
+        <img src="images/dish-yassa.jpg" alt="Yassa poulet" />
+        <img src="images/dish-dessert.jpg" alt="Dessert maison" />
+        <div class="hero-controls">
+          <button class="slider-btn prev" type="button" aria-label="Image précédente">‹</button>
+          <div class="hero-indicators" aria-label="Navigation des images"></div>
+          <button class="slider-btn next" type="button" aria-label="Image suivante">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-info">
+      <article>
+        <h2>Nos horaires</h2>
+        <p>Ouvert tous les jours de 10h00 à 22h00</p>
+      </article>
+      <article>
+        <h2>Adresse</h2>
+        <p>Riviera 2, rue de la banque SGBCI, Abidjan, Côte d'Ivoire</p>
+      </article>
+      <article>
+        <h2>Prix</h2>
+        <p>Tous les prix sont indiqués en CFA.</p>
+      </article>
+    </section>
+
+    <section class="featured-dishes">
+      <h2>Plat du jour</h2>
+      <div class="dish-grid">
+        <article class="dish-card">
+          <img src="images/dish-mafe.jpg" alt="Mafé maison" />
+          <h3>Mafé maison</h3>
+          <p>Savoureux ragoût d'arachide servi avec du riz blanc.</p>
+          <span class="price">5 500 CFA</span>
+        </article>
+        <article class="dish-card">
+          <img src="images/dish-yassa.jpg" alt="Yassa poulet" />
+          <h3>Yassa poulet</h3>
+          <p>Poulet mariné aux oignons et citron, parfumé et tendre.</p>
+          <span class="price">6 000 CFA</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-preview">
+      <h2>Notre espace</h2>
+      <div class="gallery-grid">
+        <img src="images/interior.jpg" alt="Intérieur du restaurant" />
+        <img src="images/dish-dessert.jpg" alt="Dessert maison" />
+        <img src="images/dish-plate.jpg" alt="Plat du restaurant" />
+      </div>
+      <a class="button button-secondary" href="gallery.html">Voir plus de photos</a>
+    </section>
+
+    <section class="news-section">
+      <div class="section-header">
+        <h2>Actualités</h2>
+        <p>Dernières nouvelles et événements dans votre restaurant.</p>
+      </div>
+      <ul id="posts-list" class="news-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Anuka Restaurant — Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

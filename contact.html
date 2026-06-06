@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez Anuka Restaurant à Abidjan pour réservation, livraison, plats spéciaux, options sans sel et sans cube.">
+  <title>Contact — Anuka Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="logo-text">Anuka Restaurant</span>
+        <p class="tagline">Contactez-nous pour réserver une table.</p>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Accueil</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Galerie</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h2>Nous contacter</h2>
+      <div class="contact-card">
+        <p><strong>Email :</strong> <a href="mailto:anukarestauran@gamil.com">anukarestauran@gamil.com</a></p>
+        <p><strong>Téléphone :</strong> <span class="contact-line"><span class="icon icon-phone"></span>002250718190263</span></p>
+        <p><strong>WhatsApp :</strong> <span class="contact-line"><span class="icon icon-whatsapp"></span><a href="https://wa.me/2280748917001" target="_blank">002250748917001</a></span></p>
+        <p><strong>Plats spéciaux :</strong> <span class="contact-line"><span class="icon icon-special"></span>Demandes de plats spéciaux acceptées.</span></p>
+        <p><strong>Sans sel / Sans cube :</strong> <span class="contact-line"><span class="icon icon-special"></span>Options adaptées aux personnes malades disponibles sur demande.</span></p>
+        <p><strong>Adresse :</strong> Riviera 2, rue de la banque SGBCI, Abidjan, Côte d'Ivoire</p>
+        <p><strong>Livraison :</strong> Livraison disponible dans tout Abidjan.</p>
+        <p><strong>Paiement :</strong> Espèces et Mobile Money acceptés.</p>
+        <p><strong>Préparation :</strong> Temps de préparation des plats : 30 à 55 minutes.</p>
+        <p><strong>Horaires :</strong> Ouvert tous les jours de 10h00 à 22h00</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <h2>Réservation</h2>
+      <form id="reservation-form" class="contact-card">
+        <label for="reserve-name">Nom</label>
+        <input id="reserve-name" type="text" placeholder="Ton nom" required>
+
+        <label for="reserve-phone">Téléphone</label>
+        <input id="reserve-phone" type="tel" placeholder="002250718190263" required>
+
+        <label for="reserve-date">Date</label>
+        <input id="reserve-date" type="date" required>
+
+        <label for="reserve-time">Heure</label>
+        <input id="reserve-time" type="time" required>
+
+        <label for="reserve-people">Nombre de personnes</label>
+        <input id="reserve-people" type="number" min="1" max="20" value="2" required>
+
+        <button type="submit" class="button">Envoyer la demande</button>
+      </form>
+      <p class="note">Le formulaire crée un email de demande de réservation depuis ton appareil.</p>
+    </section>
+
+    <section class="contact-section">
+      <h2>Demande spéciale</h2>
+      <form id="special-request-form" class="contact-card">
+        <label for="special-name">Nom</label>
+        <input id="special-name" type="text" placeholder="Ton nom" required>
+
+        <label for="special-phone">Téléphone</label>
+        <input id="special-phone" type="tel" placeholder="002250718190263" required>
+
+        <label for="special-message">Détail de la demande</label>
+        <textarea id="special-message" rows="5" placeholder="Explique ton plat spécial, ton régime ou tes besoins" required></textarea>
+
+        <label for="special-diet">Options diététiques</label>
+        <select id="special-diet">
+          <option value="">Aucune préférence spéciale</option>
+          <option value="Sans sel">Sans sel</option>
+          <option value="Sans cube">Sans cube</option>
+          <option value="Sans sel et sans cube">Sans sel et sans cube</option>
+        </select>
+
+        <button type="submit" class="button">Envoyer la demande</button>
+      </form>
+      <p class="note">Le formulaire prépare un email de demande spéciale depuis ton appareil.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Anuka Restaurant.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

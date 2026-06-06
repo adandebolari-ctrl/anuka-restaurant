@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "Bienvenue chez Anuka Restaurant",
+      "date": "2026-06-06",
+      "content": "Nous ouvrons nos portes avec une cuisine maison pleine de saveurs. Venez découvrir notre menu en CFA et réservez votre table dès maintenant."
+    },
+    {
+      "title": "Plat du jour : Mafé maison",
+      "date": "2026-06-07",
+      "content": "Notre spécialité du jour est le Mafé maison, servi avec du riz blanc et une sauce arachide riche et onctueuse."
+    }
+  ]
+}
